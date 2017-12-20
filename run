@@ -1,0 +1,9 @@
+rm -rf abc
+touch  abc
+#./slave >>abc &
+./master >> abc&
+
+
+
+
+sleep 12
